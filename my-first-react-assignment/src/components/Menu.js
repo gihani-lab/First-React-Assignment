@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="navBar">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <Link className="nav-link" to="/">
+        <Link className="nav-link" to="/HomePage">
           Home
         </Link>
 
@@ -22,12 +22,12 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="">
+              <Link className="nav-link" to="/AboutPage">
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-link" to="/ContactPage">
                 Contact
               </Link>
             </li>

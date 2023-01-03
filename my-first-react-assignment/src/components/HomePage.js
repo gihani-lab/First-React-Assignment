@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <div className="container">
-      <div className="container_introduction">
+      <div className="introduction">
         <h1> HELLO I 'M GIHANI</h1>
         <p>CURIOUS WOMAN READY TO BUILD THINGS FOR THE WEB</p>
         <p>
