@@ -4,7 +4,11 @@ const NavBar = () => {
   return (
     <div className="navBar">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <Link className="nav-link" to="/HomePage">
+        <Link
+          className="nav-link"
+          style={{ color: " rgb(255, 0, 255)" }}
+          to="/HomePage"
+        >
           Home
         </Link>
 
@@ -22,12 +26,20 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/AboutPage">
+              <Link
+                className="nav-link"
+                style={{ color: " rgb(255, 0, 255)" }}
+                to="/AboutPage"
+              >
                 About Me
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/ContactPage">
+              <Link
+                className="nav-link"
+                style={{ color: " rgb(255, 0, 255)" }}
+                to="/ContactPage"
+              >
                 Contact
               </Link>
             </li>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
   return (
     <div className="container">
@@ -12,8 +14,11 @@ const HomePage = () => {
           However, I feel that my development in this field is somewhat limited.
           So here,I am into Web development now.
         </p>
-        <button>Help me</button>
       </div>
+
+      <Link to="/AboutPage">
+        <button> Learn More</button>
+      </Link>
     </div>
   );
 };

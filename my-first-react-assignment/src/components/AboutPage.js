@@ -1,18 +1,18 @@
 const AboutPage = () => {
   return (
     <div className="container">
-      <h2>Who am I?</h2>
-      <div className="row">
-        <div className="col">
-          <div className="card h-100 text-dark">
+      <h2 className="rainbow-text">Who am I?</h2>
+      <div className="row ">
+        <div className="col ">
+          <div className="card h-100  bg-warning">
             <img
               src="https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835_960_720.jpg"
               className="card-img-top"
-              alt="..."
+              alt="coding"
             />
             <div className="card-body">
               <h5 className="card-title">My Background</h5>
-              <p className="card-text">
+              <p className="card-text ">
                 I am currently working as a teacher in Sweden, and it is really
                 something that I enjoy. However, I feel that my development in
                 this field is somewhat limited. I do want to strive for a field
@@ -21,8 +21,8 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="col">
-          <div className="card h-100 text-dark">
+        <div className="col ">
+          <div className="card h-100  bg-warning">
             <img
               src="https://cdn.pixabay.com/photo/2016/04/13/19/20/binary-1327493_960_720.jpg"
               className="card-img-top"
@@ -39,8 +39,8 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="col">
-          <div className="card h-100 text-dark">
+        <div className="col ">
+          <div className="card h-100  bg-warning">
             <img
               src="https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_960_720.jpg"
               className="card-img-top"
