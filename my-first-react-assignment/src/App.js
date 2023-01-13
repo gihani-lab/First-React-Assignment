@@ -7,15 +7,11 @@ import ContactPage from "./components/ContactPage";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
-
-
 function App() {
   return (
     <div>
       <BrowserRouter>
         <NavBar />
-
         <Routes>
           <Route path="AboutPage" element={<AboutPage />} />
           <Route path="ContactPage" element={<ContactPage />} />

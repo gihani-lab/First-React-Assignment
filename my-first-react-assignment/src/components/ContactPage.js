@@ -1,7 +1,8 @@
+
 import { useState } from "react";
+import Button from "./Button";
 
-const ContactPage = () => { 
-
+const ContactPage = () => {
   const [displayContactForm, setDisplayContctForm] = useState({
     fullName: "",
     message: "",
@@ -19,7 +20,6 @@ const ContactPage = () => {
       fullName: formData.get("fullName"),
     });
   }
-
 
   return (
     <div className="container">
@@ -64,7 +64,7 @@ const ContactPage = () => {
         <div>{displayContactForm.message}</div>
         <div>{displayContactForm.email}</div>
       </div>
-    
+      <Button/>
     </div>
   );
 };
