@@ -7,12 +7,12 @@ const Button = () => {
     <div className="button">
       {status && (
         <Modal close={() => setStatus(false)}>
-          <div>
+          <div className="rainbow-text">
             <> Don't forget to offer me a job</>
           </div>
         </Modal>
       )}
-      <button className="btn" onClick={() => setStatus(true)}>
+      <button className="rainbow-text" onClick={() => setStatus(true)}>
         Hello, please click me
       </button>
     </div>

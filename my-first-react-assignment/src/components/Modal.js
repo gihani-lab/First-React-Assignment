@@ -1,9 +1,9 @@
-import { MdClose } from "react-icons/md";
+import { FcCloseUpMode } from "react-icons/fc";
 
 const Modal = ({ close, children }) => {
   return (
     <div className="content">
-      <MdClose onClick={close} />
+      <FcCloseUpMode onClick={close} />
       {children}
     </div>
   );
