@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Button from "./Button";
 
@@ -26,7 +25,12 @@ const ContactPage = () => {
       <h2 className="rainbow-text">
         Contact me if you want to know more about me
       </h2>
-      <form onSubmit={onSubmit} id="contactForm" name="contactForm">
+      <form
+        onSubmit={onSubmit}
+        id="contactForm"
+        name="contactForm"
+        className="rainbow-text"
+      >
         <input
           type="text"
           placeholder="Full Name"
@@ -60,11 +64,13 @@ const ContactPage = () => {
       </form>
 
       <div className="display">
-        <div>{displayContactForm.fullName}</div>
-        <div>{displayContactForm.message}</div>
-        <div>{displayContactForm.email}</div>
+        <div className="rainbow-text">{displayContactForm.fullName}</div>
+        <div className="rainbow-text">{displayContactForm.message}</div>
+        <div className="rainbow-text">{displayContactForm.email}</div>
       </div>
-      <Button/>
+      <br />
+      <br />
+      <Button />
     </div>
   );
 };
